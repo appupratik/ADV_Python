@@ -54,8 +54,8 @@ for k,v in enumerate(list1):
 
 for key in dict1.keys():
     for val in dict1[key]:
-        if val not in list2:
-            list2.append(val)
+        list2.append(val)
+list2 = list(set(list2))
 
 final_list, addVal = zip(*list1)
 final_list = list(final_list)
