@@ -7,7 +7,9 @@ for r,d,f in res:
         dict1.setdefault(i,[]).append(r)
 
 file_name = input("Enter the file name: ")
+sr = 1
 for k,v in dict1.items():
     if file_name.lower() in k.lower():
         for i in range(len(v)):
-            print(k,':',v[i])
+            print(str(sr).rjust(3)+". ",k,':',v[i])
+            sr = sr+1
