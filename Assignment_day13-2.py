@@ -9,6 +9,5 @@ for r,d,f in res:
 file_name = input("Enter the file name: ")
 for k,v in dict1.items():
     if file_name.lower() in k.lower():
-        print(len(v))
         for i in range(len(v)):
             print(k,':',v[i])
