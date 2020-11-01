@@ -1,5 +1,5 @@
 import os
-res= os.walk("C:\\Users\\PRATIK\\Desktop\\Python\\test")
+res= os.walk("C:\\Users\\PRATIK\\Desktop\\PythonCode\\Python1\\test")
 
 dict1 = {}
 for r,d,f in res:
