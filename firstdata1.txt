@@ -1,2 +1,0 @@
-C:\Users\PRATIK\AppData\Local\Programs\Python\Python38-32\Lib\collections\abc.py
-C:\Users\PRATIK\AppData\Local\Programs\Python\Python38-32\Lib\collections\__init__.py
